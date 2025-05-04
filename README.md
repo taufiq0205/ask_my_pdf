@@ -38,7 +38,6 @@ A modern, user-friendly AI-powered document chat application built with Streamli
 
 ## 🏗️ Project Structure
 
-
 rag-llm/
 ├── app.py                # Main Streamlit app
 ├── utils/                # Utility modules (embedding, retrieval, LLM inference, etc.)
@@ -49,3 +48,22 @@ rag-llm/
 ├── requirements.txt      # Python dependencies
 └── README.md             # Project documentation
 
+---
+
+## 📦 Installation Guide
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/taufiq0205/ask_my_pdf.git
+   cd ask-my-pdf
+   
+2. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+
+3. **Set up environment variables:**
+- Copy `.env.example` to `.env` and fill in your API key.
+
+4. **Run the app:**
+```bash
+   streamlit run app.py
