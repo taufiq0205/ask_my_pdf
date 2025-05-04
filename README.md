@@ -14,6 +14,19 @@ A modern, user-friendly AI-powered document chat application built with Streamli
 
 ---
 
+## 🛠️ Tech Stack
+
+- **Frontend/UI:** [Streamlit](https://streamlit.io/) (Python), Custom CSS
+- **PDF Processing:** [PyMuPDF (pymupdf)](https://pymupdf.readthedocs.io/)
+- **Embeddings:** [Sentence Transformers](https://www.sbert.net/) (MiniLM model)
+- **Vector Search:** [FAISS](https://github.com/facebookresearch/faiss)
+- **Large Language Models:** [Hugging Face Transformers](https://huggingface.co/transformers/), [Torch](https://pytorch.org/)
+- **Model Hub:** [Hugging Face Hub](https://huggingface.co/)
+- **Utilities:** [tqdm](https://tqdm.github.io/) (progress bars), Python logging, pickle, numpy
+- **Environment/Secrets:** `.env` file (dotenv pattern)
+
+---
+
 ## 🛠️ How It Works
 
 1. **Upload PDFs**: Drag and drop your PDF files into the sidebar.
