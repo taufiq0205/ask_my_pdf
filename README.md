@@ -22,6 +22,7 @@ A modern, user-friendly AI-powered document chat application built with Streamli
 - **Vector Search:** [FAISS](https://github.com/facebookresearch/faiss)
 - **Large Language Models:** [Hugging Face Transformers](https://huggingface.co/transformers/), [Torch](https://pytorch.org/)
 - **Model Hub:** [Hugging Face Hub](https://huggingface.co/)
+- **External LLM API:** [OpenRouter NVIDIA: Llama 3.1 Nemotron Ultra 253B v1](https://openrouter.ai/nvidia/llama-3.1-nemotron-ultra-253b-v1:free/api)
 - **Utilities:** [tqdm](https://tqdm.github.io/) (progress bars), Python logging, pickle, numpy
 - **Environment/Secrets:** `.env` file (dotenv pattern)
 
