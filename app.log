@@ -1,0 +1,29 @@
+2025-04-29 00:59:23,014 - INFO - Loading faiss with AVX2 support.
+2025-04-29 00:59:23,444 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-29 00:59:23,459 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-04-29 01:04:42,214 - INFO - Uploaded file saved: data/source_pdfs/IPCC_AR6_WGII_Chapter03.pdf
+2025-04-29 01:04:42,216 - INFO - Loading PDF: data/source_pdfs/IPCC_AR6_WGII_Chapter03.pdf
+2025-04-29 01:04:46,325 - INFO - Use pytorch device_name: cpu
+2025-04-29 01:04:46,326 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-04-29 01:04:46,715 - WARNING - No sentence-transformers model found with name sentence-transformers/all-MiniLM-L6-v2. Creating a new one with mean pooling.
+2025-04-29 01:10:15,522 - INFO - Loading faiss with AVX2 support.
+2025-04-29 01:10:15,624 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-29 01:10:15,635 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-04-29 01:10:23,018 - INFO - Uploaded file saved: data/source_pdfs/IPCC_AR6_WGII_Chapter03.pdf
+2025-04-29 01:10:23,024 - INFO - Loading PDF: data/source_pdfs/IPCC_AR6_WGII_Chapter03.pdf
+2025-04-29 01:10:26,565 - INFO - Use pytorch device_name: cpu
+2025-04-29 01:10:26,565 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-04-29 01:10:26,897 - WARNING - No sentence-transformers model found with name sentence-transformers/all-MiniLM-L6-v2. Creating a new one with mean pooling.
+2025-04-29 01:17:02,814 - INFO - Uploaded file saved: data/source_pdfs/IPCC_AR6_WGII_Chapter03.pdf
+2025-04-29 01:17:02,819 - INFO - Loading PDF: data/source_pdfs/IPCC_AR6_WGII_Chapter03.pdf
+2025-04-29 01:17:06,222 - INFO - Use pytorch device_name: cpu
+2025-04-29 01:17:06,222 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-04-29 01:18:53,802 - INFO - Document chunks embedded and FAISS index created.
+2025-04-29 01:19:07,232 - INFO - Uploaded file saved: data/source_pdfs/IPCC_AR6_WGII_Chapter03.pdf
+2025-04-29 01:19:07,233 - INFO - Loading PDF: data/source_pdfs/IPCC_AR6_WGII_Chapter03.pdf
+2025-04-29 01:19:10,696 - INFO - Use pytorch device_name: cpu
+2025-04-29 01:19:10,696 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-04-29 01:20:48,156 - INFO - Document chunks embedded and FAISS index created.
+2025-04-29 01:20:48,177 - INFO - Use pytorch device_name: cpu
+2025-04-29 01:20:48,177 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-04-29 01:20:51,955 - INFO - Retrieved 5 chunks for query: 'What is this PDF about?'

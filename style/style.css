@@ -1,0 +1,146 @@
+html, body, [data-testid="stAppViewContainer"] {
+    background: #18181b !important;
+    color: #ececf1 !important;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif !important;
+    font-size: 18px !important;
+    letter-spacing: -0.01em;
+    margin: 0;
+    padding: 0;
+}
+
+[data-testid="stSidebar"] {
+    background: #1a1a1d !important;
+    border-right: 1px solid #23232a !important;
+}
+
+.chat-container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 2.5rem 0 2rem 0;
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.user-msg, .ai-msg {
+    padding: 1.1rem 1.4rem;
+    border-radius: 1.5rem;
+    margin-bottom: 0.7rem;
+    max-width: 80%;
+    word-break: break-word;
+    font-size: 1.13rem;
+    line-height: 1.7;
+    box-shadow: 0 2px 12px 0 rgba(0,0,0,0.13);
+    border: 1px solid #23232a;
+    transition: box-shadow 0.2s, background 0.2s, transform 0.2s;
+    opacity: 0;
+    animation: fadeInUp 0.5s ease forwards;
+}
+
+.user-msg {
+    background: linear-gradient(90deg, #23232a 0%, #35363a 100%);
+    color: #ececf1;
+    align-self: flex-end;
+    margin-left: 20%;
+    border-bottom-right-radius: 0.5rem;
+}
+
+.ai-msg {
+    background: #23232a;
+    color: #ececf1;
+    align-self: flex-start;
+    margin-right: 20%;
+    border-bottom-left-radius: 0.5rem;
+}
+
+.user-msg:hover, .ai-msg:hover {
+    box-shadow: 0 4px 18px 0 rgba(0,0,0,0.22);
+    transform: translateY(-2px) scale(1.01);
+    background: #23232a;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.input-container {
+    position: static;
+    width: 100%;
+    background: #18181b;
+    padding: 1.2rem 0.5rem 1.2rem 0.5rem;
+    box-shadow: 0 -2px 24px 0 rgba(0,0,0,0.10);
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid #23232a;
+}
+
+.input-inner {
+    width: 700px;
+    max-width: 98vw;
+    display: flex;
+    align-items: center;
+    background: #23232a;
+    border-radius: 1.7rem;
+    padding: 0.7rem 1.2rem;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.10);
+    border: 1px solid #35363a;
+    transition: box-shadow 0.2s;
+}
+
+.input-inner:focus-within {
+    box-shadow: 0 2px 12px 0 rgba(0,0,0,0.18);
+    border: 1.5px solid #ececf1;
+}
+
+.stTextInput>div>input {
+    background: transparent !important;
+    color: #ececf1 !important;
+    border: none !important;
+    font-size: 1.15rem !important;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif !important;
+    padding: 0.7rem 0.5rem !important;
+    outline: none !important;
+}
+
+.stTextInput>div {
+    background: transparent !important;
+}
+
+.stButton>button {
+    background: #35363a !important;
+    color: #ececf1 !important;
+    border-radius: 1.2rem !important;
+    border: none !important;
+    font-size: 1.1rem !important;
+    padding: 0.5rem 1.2rem !important;
+    margin-left: 0.7rem !important;
+    transition: background 0.2s, box-shadow 0.2s, transform 0.2s;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.10);
+}
+
+.stButton>button:hover {
+    background: #44444a !important;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.18);
+    transform: translateY(-1px) scale(1.03);
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    background: #23232a;
+}
+::-webkit-scrollbar-thumb {
+    background: #35363a;
+    border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #44444a;
+}

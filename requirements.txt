@@ -1,0 +1,8 @@
+streamlit
+sentence-transformers
+transformers
+faiss-cpu
+huggingface_hub
+pymupdf
+torch
+tqdm
